@@ -1,0 +1,18 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    background: url('assets/images/dungeon-glow.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.dungeon {
+    padding-top: 20vh;
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

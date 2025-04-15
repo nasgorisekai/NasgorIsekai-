@@ -1,152 +1,20 @@
 
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NasgorIsekai - Rasa Dunia Lain</title>
-  <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0; padding: 0; box-sizing: border-box;
-    }
-    body {
-      font-family: 'Uncial Antiqua', cursive;
-      background: linear-gradient(to bottom, #0b0c1b, #1f203a);
-      color: #fff;
-      line-height: 1.6;
-    }
-    header {
-      background-image: url('https://i.imgur.com/JWcxVdB.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 2rem;
-    }
-    header h1 {
-      font-size: 3rem;
-      color: #ffe177;
-      text-shadow: 2px 2px 4px #000;
-    }
-    header p {
-      font-size: 1.3rem;
-      margin-top: 1rem;
-      color: #dcdcdc;
-      text-shadow: 1px 1px 2px #000;
-    }
-    nav {
-      background-color: #161622;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-    }
-    nav a {
-      color: #ffe177;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      color: #ffffff;
-    }
-    section {
-      padding: 4rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    section h2 {
-      font-size: 2rem;
-      color: #ffe177;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #ffe177;
-      display: inline-block;
-    }
-    .tier-item, .buff-item {
-      margin: 1.5rem 0;
-      padding: 1rem;
-      background-color: #262646;
-      border-left: 4px solid #ffe177;
-      border-radius: 8px;
-    }
-    .tier-item h3, .buff-item h3 {
-      color: #ffe177;
-    }
-    footer {
-      background-color: #0d0d1a;
-      text-align: center;
-      padding: 2rem;
-      color: #aaa;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NasgorIsekai</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div>
-      <h1>Selamat Datang di NasgorIsekai</h1>
-      <p>Petualangan rasa dimulai di sini. Rasa dunia lain, di setiap suapan.</p>
+    <audio autoplay loop>
+        <source src="assets/audio/bg-music.mp3" type="audio/mp3">
+    </audio>
+    <div class="dungeon">
+        <h1>Welcome to NasgorIsekai!</h1>
+        <p>Masuki dunia penuh rasa dan petualangan!</p>
     </div>
-  </header>
-  <nav>
-    <a href="#menu">Menu Tier</a>
-    <a href="#buff">Buff Tambahan</a>
-    <a href="#tentang">Tentang Kami</a>
-    <a href="#pesan">Cara Pesan</a>
-  </nav>
-  <section id="menu">
-    <h2>Menu Tier</h2>
-    <div class="tier-item">
-      <h3>SS Tier - Raja Dermawan</h3>
-      <p>Dihormati di seluruh dimensi, Raja Dermawan membeli dengan harga tertinggi. Namun sebagai anugrah, dua pelanggan berikutnya akan mendapatkan makanan gratis. Hanya tersedia satu kali sehari, penuh kemuliaan dan rasa.</p>
-    </div>
-    <div class="tier-item">
-      <h3>S Tier - Raja Iblis</h3>
-      <p>Dengan kendali atas waktu, Raja Iblis selalu dilayani pertama. Eksklusif hanya satu per hari. Suapan pertama membawa keputusasaan... karena kamu tahu, rasanya terlalu enak untuk dinikmati sekali.</p>
-    </div>
-    <div class="tier-item">
-      <h3>A Tier - Ksatria Nasi</h3>
-      <p>Menu favorit para petarung. Porsi pas, rasa menggoda, dan siap menemanimu bertarung di hari yang panjang.</p>
-    </div>
-    <div class="tier-item">
-      <h3>B Tier - Penjelajah Rempah</h3>
-      <p>Petualang rasa yang tak pernah gagal. Murah, mantap, dan bisa diandalkan.</p>
-    </div>
-    <div class="tier-item">
-      <h3>C Tier - Warga Desa</h3>
-      <p>Menu dasar, tapi tetap penuh cita rasa. Untuk kamu yang ingin kenyang tanpa banyak drama.</p>
-    </div>
-  </section>
-  <section id="buff">
-    <h2>Sistem Buff</h2>
-    <div class="buff-item">
-      <h3>Telur Fantasi (+Vitalitas)</h3>
-      <p>Telur mata naga dari lembah lava, meningkatkan energi +10%. Cocok untuk pagi atau setelah perang pikiran.</p>
-    </div>
-    <div class="buff-item">
-      <h3>Keju Elf Suci (+Kebahagiaan)</h3>
-      <p>Meleleh dalam hati. Meleleh di lidah. Efek rasa bahagia +20%.</p>
-    </div>
-    <div class="buff-item">
-      <h3>Ayam Orc Panggang (+Kekuatan)</h3>
-      <p>Potongan ayam besar berselimutkan bumbu sihir. Efek: +5 STR (kenyang dan kuat).</p>
-    </div>
-  </section>
-  <section id="tentang">
-    <h2>Tentang Kami</h2>
-    <p>NasgorIsekai adalah portal menuju rasa dunia lain. Didirikan oleh petualang rasa yang ingin membawa nasi goreng ke level legenda. Kami menyajikan petualangan rasa dengan nuansa RPG dan imajinasi liar.</p>
-  </section>
-  <section id="pesan">
-    <h2>Cara Pesan</h2>
-    <p>Pesan langsung via WhatsApp: <strong>0812 4819 0049</strong><br>
-    Atau temukan kami di aplikasi ojek online kesayanganmu!</p>
-  </section>
-  <footer>
-    &copy; 2025 NasgorIsekai. Semua rasa dilindungi kekuatan sihir.
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>
